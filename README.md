@@ -8,9 +8,11 @@ Current install time ~3min, System Dependent.
 
 ## Prerequisites
 
-Using a Windows 10/11 Pro Licenced copy with the sandbox enabled.
+Using a Windows system with the sandbox enabled.
 If you are unsure if you have this please check:
 [Setup Windows Sandbox](https://learn.microsoft.com/en-us/windows/security/application-security/application-isolation/windows-sandbox/windows-sandbox-install#installation)
+
+System Requirements from learn.microsoft.com:
 ```
 Arm64 (for Windows 11, version 22H2 and later) or AMD64 architecture
 Virtualization capabilities enabled in BIOS
@@ -18,7 +20,6 @@ At least 4 GB of RAM (8 GB recommended)
 At least 1 GB of free disk space (SSD recommended)
 At least two CPU cores (four cores with hyper-threading recommended)
 ```
-
 
 If you already have Windows Sandbox working on your computer now please follow the below steps exactly to ensure the provided files will work.
 
