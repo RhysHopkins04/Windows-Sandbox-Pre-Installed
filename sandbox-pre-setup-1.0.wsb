@@ -1,0 +1,16 @@
+<Configuration>
+  <MappedFolders>
+    <MappedFolder>
+      <HostFolder>C:\windows-sandbox\default-setup</HostFolder>
+      <SandboxFolder>C:\Users\WDAGUtilityAccount\default-setup</SandboxFolder>
+      <ReadOnly>false</ReadOnly>
+    </MappedFolder>
+  </MappedFolders>
+  <LogonCommand>
+    <Command>C:\Users\WDAGUtilityAccount\default-setup\install.bat</Command>
+  </LogonCommand>
+  <RuntimeConfiguration>
+    <MemoryInMB>8192</MemoryInMB> <!-- 8 GB memory allocation -->
+    <ProcessorCount>6</ProcessorCount> <!-- 6 CPU cores -->
+  </RuntimeConfiguration>
+</Configuration>
